@@ -1,11 +1,11 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
-// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
+  base: './', // Add this line to set a relative base path
   build: {
-    target: 'esnext', // Ensure Vite outputs modern JavaScript modules
+    target: 'esnext',
     modulePreload: true,
-  }
-})
+  },
+});
