@@ -3,10 +3,10 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: './', // Set a relative base path
+  base: '/', // Use absolute path to avoid issues
   build: {
     target: 'esnext',
     modulePreload: true,
-    assetsDir: './assets', // Ensure assets are handled correctly in Netlify
+    assetsDir: 'assets', // Relative assets directory
   },
 });
