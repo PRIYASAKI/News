@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/', // or set a specific path if your app is deployed in a subdirectory
+  base: '/', // Set to '/' for root or adjust based on your hosting setup
   build: {
     target: 'esnext',
     modulePreload: true,
