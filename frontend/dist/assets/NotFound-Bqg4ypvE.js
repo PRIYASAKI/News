@@ -1,0 +1,1 @@
+import{q as s}from"./index-BXCokLaZ.js";const r=()=>s.jsxs("div",{children:[s.jsx("br",{}),s.jsx("h2",{className:"text-center",children:"Uh-oh..."}),s.jsx("img",{src:"/src/assets/factFlow_404.png",style:{display:"block",margin:"auto"}})]});export{r as default};
